@@ -1,0 +1,67 @@
+body, h1, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set font and background color for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a10439; /* Light pink background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Styling the container */
+.container {
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(151, 135, 135, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+/* Styling the header */
+h1 {
+    color: #a10439; /* Pink color for the header */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling the form */
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling the form labels */
+.registration-form label {
+    margin-bottom: 5px;
+    color: #a10439;
+}
+
+/* Styling the form inputs */
+.registration-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Styling the submit button */
+.registration-form button {
+    padding: 10px;
+    background-color:#a10439; /* Pink background for the button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.registration-form button:hover {
+    background-color: #8f0331; /* Darker pink on hover */
+}
